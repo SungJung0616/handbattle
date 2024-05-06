@@ -166,6 +166,26 @@ body{
         height: 70%;
     }
 
+    .main>div:first-of-type{
+      border-right :none;
+    }
+
+    .btn-box {
+      gap: 0.5rem;
+    }
+
+    .btn-box button {
+      width: 60px;
+      height: 60px;
+    }
+
+    .buttonList button img{
+      position: absolute;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      height: 80%;
+    }
+
   }
 
   @media only screen and (max-width: 400px){
