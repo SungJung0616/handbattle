@@ -155,7 +155,7 @@ body{
 @media  only screen and (max-width: 600px) {
   .container {
     width: 90%;
-    height: calc(100vh - 8rem)
+    height: calc(100vh - 3rem)
   }
 
   
@@ -171,7 +171,7 @@ body{
 
 @media only screen and (max-width: 450px){
   .container {
-    height: calc(100vh - 10rem);
+    height: calc(100vh - 5rem);
   }
 
   .main img{
@@ -199,7 +199,7 @@ body{
 
   @media only screen and (max-width: 400px){
     .container {
-      height: calc(100vh - 12rem)
+      height: calc(100vh - 8rem)
     }
 
     .main{
