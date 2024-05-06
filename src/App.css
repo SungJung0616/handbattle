@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Rowdies:wght@300;400;700&display=swap');
+body{
+  background-color: #13f841;  
+  font-family: 'Poppins', sans-serif;   
+}
+
+.container{
+  background-color: #fff; 
+  border-radius: 1rem;
+  box-shadow: 1px 1px 10px #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 5rem);
+  left: 50%;
+  padding: 1.5rem;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  
+}
+.score-box{
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  justify-content: space-between;
+  align-items: center; 
+  padding-bottom: 1rem; 
+  width : 100%;   
+}
+
+.score{
+  display: flex;
+  font-family: "Rowdies", sans-serif;
+  font-weight: bold;  
+}
+
+.reset-btn{ 
+  place-items: center;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #13f841be;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  font-weight: bold;   
+  transition: background-color 0.3s ease;
+}
+
+.reset-btn:hover {
+  background-color: #5fa262; 
+}
+
+.main, .main>div{
+  display: flex;
+  flex: 1 1; 
+}
+
+.main{
+  justify-content: space-between;
+  margin: 2rem 0;
+  font-family: "Rowdies", sans-serif;
+}
+
+.main>div:first-of-type{
+  border-right: 1px solid #ccc;
+}
+
+.main>div{
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.main img {
+  width: 80%;
+  height: auto;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.main .win {
+  animation: pulse 1.5s ease-in-out infinite; 
+  color: green;
+}
+
+.main .lose{
+  color: red;
+}
+
+.main p{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+
+.btn-box button{
+  border: none;
+  border-radius: 1rem;
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+
+.btn-box button img {
+  top: 50%;
+  left: 50%;
+  height: 80px;
+  width: 80px;   
+}
+
+.btn-box > button:hover {
+  background-color: #f8f8f8;  
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);  
+  transform: translateY(-2px); 
+}
+
+.btn-box > button:active {
+  transform: translateY(1px); 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+}
+
+.rotate-scissors{  
+  transform: rotate(-90deg);
+}
+
+.rotate-paper,.rotate-rock{
+   transform: rotate(90deg);
+}
+
+
+
+@media  only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    height: calc(100vh - 8rem)
+  }
+}
+
+  @media only screen and (max-width: 450px){
+    .container {
+      height: calc(100vh - 10rem);
+    }
+
+    .main img{
+        width: 75%;
+        height: 75%;
+    }
+
+  }
+
+  @media only screen and (max-width: 400px){
+    .container {
+      height: calc(100vh - 12rem)
+    }
+
+    .btn-box {
+      gap: 0.5rem;
+    }
+
+    .btn-box button {
+      width: 60px;
+      height: 60px;
+    }
+
+    .buttonList button img{
+      width: 40px;
+      height: 40px;
+    }
+
+  }
+  
