@@ -89,10 +89,13 @@ body{
   }
 }
 
-.main .win {
-  animation: pulse 1.5s ease-in-out infinite; 
+.main .win{
   color: green;
 }
+
+.main .win img {
+  animation: pulse 1.5s ease-in-out infinite; 
+  }
 
 .main .lose{
   color: red;
@@ -154,39 +157,45 @@ body{
     width: 90%;
     height: calc(100vh - 8rem)
   }
+
+  
+  .main img{
+    width: 70%;
+    height: 70%;
 }
 
-  @media only screen and (max-width: 450px){
-    .container {
-      height: calc(100vh - 10rem);
-    }
+.main>div:first-of-type{
+  border-right :none;
+}
+}
 
-    .main img{
-        width: 70%;
-        height: 70%;
-    }
-
-    .main>div:first-of-type{
-      border-right :none;
-    }
-
-    .btn-box {
-      gap: 0.5rem;
-    }
-
-    .btn-box button {
-      width: 60px;
-      height: 60px;
-    }
-
-    .buttonList button img{
-      position: absolute;
-      transform: translate(-50%, -50%);
-      width: 80%;
-      height: 80%;
-    }
-
+@media only screen and (max-width: 450px){
+  .container {
+    height: calc(100vh - 10rem);
   }
+
+  .main img{
+      width: 70%;
+      height: 70%;
+  }
+
+  .main>div:first-of-type{
+    border-right :none;
+  }
+
+  .btn-box {
+    gap: 0.5rem;
+  }
+  
+
+  .buttonList button img{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+  }
+
+}
 
   @media only screen and (max-width: 400px){
     .container {
@@ -202,22 +211,16 @@ body{
     }
 
     main img {
-      width: 50%;
+      width: 70%;
       height: 50%;
     }
 
     .btn-box {
       gap: 0.5rem;
-    }
-
-    .btn-box button {
-      width: 60px;
-      height: 60px;
-    }
+    }   
 
     .buttonList button img{
-      position: absolute;
-      transform: translate(-50%, -50%);
+      
       width: 80%;
       height: 80%;
     }
