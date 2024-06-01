@@ -5,13 +5,13 @@ import Box from './component/Box';
 
 let choice = {
   rock : {name : "Rock",
-          img : "https://korearps.wvy.kr/wp-content/uploads/sites/2/2020/03/slider-pic-104.png",
+          img : "image/rock.png",
           alt : "rock"},
   paper : {name : "Paper",
-          img : "https://korearps.wvy.kr/wp-content/uploads/sites/2/2020/03/slider-pic-102.png",
+          img : "image/paper.png",
           alt : "paper"},
   scissors :{name: "Scissors",
-          img:"https://korearps.wvy.kr/wp-content/uploads/sites/2/2020/03/slider-pic-103.png",
+          img:"image/scissors.png",
           alt: "scissors" }
 }
 
