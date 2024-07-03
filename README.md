@@ -22,7 +22,11 @@ A game project called HandBattle made using JavaScript, React, and CSS. It follo
 
 ### Environment
 
-<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <
+<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+
+### Config
+
+<img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white">
 
 ### Development
 
