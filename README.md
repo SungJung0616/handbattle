@@ -18,7 +18,7 @@ A game project called HandBattle made using JavaScript, React, and CSS. It follo
 
 [HandBattle Game](https://sj-handbattle.netlify.app/)
 
-## ## Stacks
+## Stacks
 
 ### Environment
 
